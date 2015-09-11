@@ -1,0 +1,55 @@
+body{
+    padding-top: 70px;
+    height: 100%;
+    background: url("../img/bg.jpg");
+}
+
+.navbar-default{
+   background: #C20000;
+    background: rgba(0,0,0,.8);
+}
+.navbar-default .navbar-brand {
+    color: white;
+
+}
+.navbar-default{
+    border: none;
+}
+footer{
+    background: #F05F40;
+    background: rgba(0,0,0,.8);
+    position: fixed;
+    bottom: 0;
+    padding-top:10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+footer p {
+    text-align: center;
+    position: relative;
+    top: 4px;
+    color: white;
+}
+
+.jumbotron{
+    color: white;
+    height: 85vh;
+    margin-top: -20px;
+   background: rgba(0,0,0,.6);
+
+}
+
+.navbar-default .navbar-text{
+    color: whitesmoke;
+}
+
+.center{
+    width: 50%;
+    margin: 0 auto;
+}
+.pagination > li > a, .pagination > li > span{
+    background: rgba(0,0,0,.6);
+}
+.active{
+    background: rgba(0,0,0,.6);
+}
